@@ -1,0 +1,84 @@
+body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    .navbar {
+      background: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    .logo {
+      font-family: 'Anton', sans-serif;
+      font-size: 1.8rem;
+      color: #f00;
+    }
+    .nav-menu a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .nav-menu a:hover {
+      color: #f00;
+    }
+    .about-us {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.about-us h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5rem;
+  color: #f00;
+  margin-bottom: 1rem;
+}
+.about-us p {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #ccc;
+}
+.about-content h2 {
+  font-family: 'Anton', sans-serif;
+  color: #f00;
+  margin-bottom: 1rem;
+}
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.mission-vision {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mission, .vision {
+  flex: 1 1 300px;
+  background-color: #222;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.mission h3, .vision h3 {
+  color: #f00;
+  margin-bottom: 1rem;
+}
+.mission p, .vision p {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.4;
+}
